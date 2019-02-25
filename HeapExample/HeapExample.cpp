@@ -138,7 +138,7 @@ int main()
 								}
 							}
 
-							if (heapinfo.elem[i].key > 9) {
+							else if (heapinfo.elem[i].key > 9) {
 								for (int k = 0; k < blank-1; k++) {
 									printf(" ");
 								}
